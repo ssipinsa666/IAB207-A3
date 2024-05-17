@@ -24,6 +24,7 @@ class Event(db.Model):
     date = db.Column(db.DateTime, nullable=False)
     location = db.Column(db.String(150), nullable=False)
     description = db.Column(db.String(200), nullable=False)
+    category = db.Column(db.String(150), nullable=False)
     image = db.Column(db.String(400), nullable=False)
     status = db.Column(db.String(100), nullable=False)
     price = db.Column(db.Float, nullable=False)
