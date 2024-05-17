@@ -1,0 +1,167 @@
+
+
+
+body {
+    background-color: #1f2937;
+}
+
+.logbtns {
+    margin-left: auto !important;
+}
+
+.logbtns .active {
+    background-color: #0ca789 !important;
+}
+
+.mainBanner {
+    padding: 15% 0;
+    color: #FFFFFF;
+}
+
+.mainBanner-alt {
+    padding: 5% 0;
+    color: #FFFFFF;
+}
+
+.subBanner {
+    padding: 25pt 0 !important;
+    color: #FFFFFF;
+}
+
+.footerBanner {
+    padding: 5pt 5pt 5pt 5pt;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.mainNav .nav-item a {
+    font-size: 16pt;
+    color: #FFFFFF !important;
+}
+
+.mainNav .nav-item a:hover:not(.active) {
+    font-size: 16pt;
+    color: #0ca789 !important;
+}
+
+.card-text {
+    margin-bottom: 5pt;
+}
+
+.bookBtn {
+    background-color: #0ca789;
+    border-color: #0ca789;
+}
+
+.bookBtn:hover {
+    background-color: #0a8f74 !important;
+    border-color: #0a8f74 !important;
+}
+
+.bookBtn:active {
+    background-color: #087761 !important;
+    border-color: #087761 !important;
+}
+
+.submitBtn {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    background-color: #207DB9;
+    border-color: #207DB9;
+    padding: 10pt 20pt;
+    font-size: large;
+}
+
+.submitBtn:hover {
+    background-color: #1e74ae !important;
+    border-color: #1e74ae !important;
+}
+
+.submitBtn:active {
+    background-color: #1a6699 !important;
+    border-color: #1a6699 !important;
+}
+
+.submitBtn-alt {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    background-color: #0ca789;
+    border-color: #0ca789;
+    padding: 10pt 20pt;
+    font-size: large;
+}
+
+.submitBtn-alt:hover {
+    background-color: #0a8f74 !important;
+    border-color: #0a8f74 !important;
+}
+
+.submitBtn-alt:active {
+    background-color: #087761 !important;
+    border-color: #087761 !important;
+}
+
+.mainCard {
+
+    margin: 10pt 5pt 10pt 5pt !important;
+}
+
+
+#loginModal .modal-content {
+    background-color: #FFFFFF !important;
+}
+
+.navDrop {
+    background-color: #1f2937;
+}
+
+.navDrop *:hover {
+    background-color: #1d2430 !important;
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+#commentEventModal {
+    color: initial;
+}
+
+.imgBanner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainCard img {
+    object-position: center;
+    object-fit: cover !important;
+    height: 15rem;
+}
+
+.eventImg {
+    margin-top: 10pt !important;
+    object-position: center !important;
+    object-fit: cover !important;
+    height: 25rem !important;
+    width: 100% !important;
+}
+
+.eventImgPrev {
+    margin-top: 10pt !important;
+    object-position: center !important;
+    object-fit: cover !important;
+    height: 18rem !important;
+    width: 25rem !important;
+}

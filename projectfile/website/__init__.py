@@ -20,7 +20,8 @@ def create_app():
     db.init_app(app)
 
     Bootstrap5(app)
-    
+    UPLOAD_FOLDER = '/static/image'
+    app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER 
     # initialise the login manager
     login_manager = LoginManager()
     
@@ -38,6 +39,9 @@ def create_app():
 
     from . import views
     app.register_blueprint(views.main_bp)
+
+    from . import event
+    app.register_blueprint(event.event_bp)
 
     from . import auth
     app.register_blueprint(auth.auth_bp)
